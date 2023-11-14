@@ -11,13 +11,13 @@ def parse_args():
     )
     parser.add_argument(
         "--alluxio_file_path",
-        default="s3://ai-ref-arch/yelp-review/yelp_academic_dataset_review.json",
+        default="s3://ai-ref-arch/small-dataset/iris.csv",
         required=False,
         help="The Alluxio file path to read",
     )
     parser.add_argument(
         "--local_file_path",
-        default="/Users/alluxio/Downloads/yelp_academic_dataset_review.json",
+        default="/Users/alluxio/Downloads/iris.csv",
         required=False,
         help="The local file path to validate against",
     )
